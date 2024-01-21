@@ -98,10 +98,6 @@ $('.blur').mouseenter(function(){
 $('.blur').mouseleave(function(){
   $('.blur').css('filter','blur(0px)'); // Removes blur from all when none are hovered
 })
-const show = () => {
-        tamu();
-        opacity('loading');
-        window.scrollTo(0, 0);
-    };
+
 // undangan end
 
